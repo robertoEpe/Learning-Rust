@@ -10,5 +10,6 @@ fn main() {
 fn read_line() -> String {
     let mut result = String::new();
     std::io::stdin().read_line(&mut result).expect("Failed to read a line from stdin");
+    result = result.trim().to_string();
     result
 }
