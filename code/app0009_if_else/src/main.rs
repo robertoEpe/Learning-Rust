@@ -12,6 +12,5 @@ fn main() {
         println!("{} is alphabetically before {}", first, second);
     } else {
         println!("{} is alphabetically after {}", first, second);
-
     }
 }
