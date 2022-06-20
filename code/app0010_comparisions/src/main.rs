@@ -13,22 +13,27 @@ fn main() {
     std::io::stdout().flush().expect("Failed to flush");
     let number2: f64 = get_value();
 
+    // EQUAL
     if number1 == number2 {
         println!("{} == {}", number1, number2);
     }
 
+    // LESS THAN
     if number1 < number2 {
         println!("{} < {}", number1, number2);
     }
 
+    // GREATER THAN
     if number1 > number2 {
         println!("{} > {}", number1, number2);
     }
 
+    // LESS THAN OR EQUAL TO
     if number1 <= number2 {
         println!("{} <= {}", number1, number2);
     }
 
+    // GREATER THAN OR EQUAL TO
     if number1 >= number2 {
         println!("{} >= {}", number1, number2);
     }
