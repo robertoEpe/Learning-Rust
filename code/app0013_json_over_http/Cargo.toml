@@ -1,0 +1,12 @@
+[package]
+name = "app0013_json_over_http"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = {features=["derive"], version="1.0.137"}
+serde_json = "1.0"
+reqwest = {features=["json"], version="0.11.11"}
+tokio = {features=["full", "rt", "macros"], version="1.19.2"}
